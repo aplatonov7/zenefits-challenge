@@ -1,0 +1,45 @@
+.Input__container {
+  padding: 0.75rem;
+  transition-property: background;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.0,0.0,0.2,1);
+}
+
+.Input__container.colored {
+  background-color: #4285F4;
+}
+
+.Input__text {
+  width: 100%;
+  border: none;
+  height: 3rem;
+  padding: 1rem 3rem 1rem 1rem;
+  font-size: 1.15rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0,   0.3);
+}
+
+.Input__clear-button {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  font-size: 0;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+
+.Input__clear-button:after {
+  content: 'x';
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #777;
+}
+
+/* Styles for google maps searchBox */
+
+.pac-item {
+  padding: 0.5rem 0.75rem;
+}
+
+.pac-item:last {
+  padding-bottom: 0;
+}

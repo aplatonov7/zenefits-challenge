@@ -1,0 +1,6 @@
+{
+  "name": "WithGMap",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./WithGMap.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ErrorScreen",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./ErrorScreen.js"
+}

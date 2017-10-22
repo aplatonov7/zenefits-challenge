@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlacesList component Should match snapshot 1`] = `
+<ul
+  className="PlacesList__list"
+>
+  <li>
+    <button
+      className="PlacesList__item"
+      onClick={[Function]}
+    >
+      <div
+        className="PlacesList__item-info"
+      >
+        <div
+          className="PlacesList__item-name"
+        />
+        <div
+          className="PlacesList__item-address"
+        />
+      </div>
+      <div
+        className="PlacesList__item-preview"
+        style={
+          Object {
+            "backgroundImage": "none",
+          }
+        }
+      >
+        No Preview
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      className="PlacesList__item"
+      onClick={[Function]}
+    >
+      <div
+        className="PlacesList__item-info"
+      >
+        <div
+          className="PlacesList__item-name"
+        />
+        <div
+          className="PlacesList__item-address"
+        />
+      </div>
+      <div
+        className="PlacesList__item-preview"
+        style={
+          Object {
+            "backgroundImage": "none",
+          }
+        }
+      >
+        No Preview
+      </div>
+    </button>
+  </li>
+  <li>
+    <button
+      className="PlacesList__item"
+      onClick={[Function]}
+    >
+      <div
+        className="PlacesList__item-info"
+      >
+        <div
+          className="PlacesList__item-name"
+        />
+        <div
+          className="PlacesList__item-address"
+        />
+      </div>
+      <div
+        className="PlacesList__item-preview"
+        style={
+          Object {
+            "backgroundImage": "none",
+          }
+        }
+      >
+        No Preview
+      </div>
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`PlacesListItem Should match snapshot 1`] = `
+<li>
+  <button
+    className="PlacesList__item"
+    onClick={[Function]}
+  >
+    <div
+      className="PlacesList__item-info"
+    >
+      <div
+        className="PlacesList__item-name"
+      >
+        Some name
+      </div>
+      <div
+        className="PlacesList__item-address"
+      >
+        Testing address
+      </div>
+      <div
+        className="PlacesList__item-open"
+      >
+        Open now
+      </div>
+    </div>
+    <div
+      className="PlacesList__item-preview"
+      style={
+        Object {
+          "backgroundImage": "url(some_url)",
+        }
+      }
+    />
+  </button>
+</li>
+`;

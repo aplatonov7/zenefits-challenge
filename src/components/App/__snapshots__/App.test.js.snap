@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component Should match snapshot 1`] = `
+<main
+  className="App__container"
+  onClick={[Function]}
+>
+  <div
+    className="Drawer__container opened"
+    onMouseDown={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+  >
+    <div
+      className="Input__container"
+    >
+      <input
+        aria-label="Search places"
+        className="Input__text"
+        placeholder="Search places"
+        type="text"
+      />
+      <button
+        className="Input__clear-button"
+        onClick={[Function]}
+      >
+        Clear Input
+      </button>
+    </div>
+    <div
+      className="Drawer__anchor"
+    />
+  </div>
+  <div
+    className="App__map"
+  />
+</main>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorScreen component Should match snapshot 1`] = `
+<div
+  className="ErrorScreen__container"
+>
+  <h1>
+    Custom title
+  </h1>
+  Inner content
+</div>
+`;

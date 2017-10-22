@@ -1,0 +1,6 @@
+{
+  "name": "LoadingScreen",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./LoadingScreen.js"
+}

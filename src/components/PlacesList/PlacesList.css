@@ -1,0 +1,62 @@
+.PlacesList__list {
+  background-color: white;
+  overflow: auto;
+  flex-grow: 1;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.PlacesList__item {
+  border-bottom: 1px solid #ddd;
+  padding: 1.5rem 1.75rem;
+  display: flex;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;    
+}
+
+.PlacesList__item:hover {
+  background-color: #eee; 
+}
+
+.PlacesList__item-info {
+  flex: 1;
+}
+
+.PlacesList__item-name {
+  font-size: 1.15rem;
+  line-height: 2;
+}
+
+.PlacesList__item-address {
+  color: #666;
+}
+
+.PlacesList__item-preview {
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  flex: 0 0 100px;
+  margin-left: 1rem;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.PlacesList__item-open {
+  line-height: 2;
+  color: #c00;
+}
+
+.PlacesList__no-results {
+  text-align: center;
+  background-color: white;
+  flex-grow: 1;
+  font-size: 1.5rem;
+  padding: 1.5rem 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}

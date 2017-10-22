@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Drawer component Should match snapshot 1`] = `
+<div
+  className="Drawer__container opened full-height"
+  onMouseDown={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+>
+  Inner content
+  <button
+    className="Drawer__button"
+    onClick={[Function]}
+  >
+    Toggle the drawer
+  </button>
+  <div
+    className="Drawer__anchor"
+  />
+</div>
+`;
