@@ -1,5 +1,6 @@
 {
   "name": "zenifits-maps",
+  "homepage": "https://aplatonov7.github.io/zenefits-challenge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,11 +15,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn build && gh-pages -d build"
   },
   "devDependencies": {
     "enzyme": "^3.1.0",
     "enzyme-adapter-react-16": "^1.0.2",
+    "gh-pages": "^1.0.0",
     "react-addons-test-utils": "^15.6.2"
   }
 }
